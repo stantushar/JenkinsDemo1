@@ -4,10 +4,7 @@ public class JenkinsDemo {
 
 	public static void main(String[] args) {
 		
-		printFunction("Tushar", "Chaudhari");
+		System.out.println("Hello"+args[0]+ " "+args[1]+"welcome to Avaloq DevOps World!");
 	}
-	public static void printFunction(String firstName , String lastName)
-	{
-		System.out.println("Hello "+firstName + lastName+ ", Welcome to Avaloq DevOps World");
-	}
+
 }
